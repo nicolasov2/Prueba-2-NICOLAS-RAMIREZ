@@ -16,7 +16,7 @@ html {
     font-size: 62.5%;
 }
 *, *:before, *:after {
-    box-sizing: inherit;
+    box-sizing: normal;
 }
 
 /*GLOBALES*/
@@ -118,10 +118,9 @@ header {
     font-family: sans-serif;
     margin: 1rem auto;
     background-color: rgba(255, 255, 255, 0);
-    max-width: 820px;
+    max-width: 800px;
     width: 100%;
-    padding: 1rem;
-    box-sizing: border-box;
+
 }
 
 #kiko-slider > ul, li {
@@ -182,7 +181,7 @@ header {
 }
 
 #kiko-slider > .menu li a{
-    display: center;
+    display: inline-block;
     color: #ffffff;
     text-decoration: none;
     background-color: #000000;
@@ -210,22 +209,22 @@ header {
 }
 /*PRODUCTOS*/
 
-.producto {
+.medicos {
     background-color: var(--primario-oscuro);
     padding: 1rem;
 }
 
-.producto__nombre {
+.medicos__nombre {
     font-size: 4rem;
 }
-.producto__precio {
+.medicos__precio {
     font-size: 2.8rem;
     color: var(--secundario);
     text-align: left;
 }
 
-.producto__nombre,
-.producto__imagen{
+.medicos__nombre,
+.medicos__imagen{
     font-family: var(--fuente-principal);
     margin: 1rem 0;
     text-align: center;
