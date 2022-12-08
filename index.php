@@ -25,7 +25,7 @@
          <a class="navegacion__enlace navegacion__enlace--activo" href="index.php">CATEGORIAS</a>
          <a class="navegacion__enlace" href="INSERCIONES/PACIENTE/insertar_p.php">INGRESAR USUARIO</a>
          <a class="navegacion__enlace" href="Ingresar_medico.php">INGRESAR MEDICO</a>
-         <a class="navegacion__enlace" href="INSERCIONES/MEDICOS/Insertar_medico.php">INSERTAR MEDICO</a>
+         <a class="navegacion__enlace" href="INSERCIONES/Insertar_medico.php">INSERTAR MEDICO</a>
          <a class="navegacion__enlace" href="patologias.php">PATOLOGIAS</a>
     </nav>
 
