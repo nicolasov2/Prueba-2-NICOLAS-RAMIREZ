@@ -16,14 +16,17 @@
 </head>
 <body>
     <header class="header">
-         <a href="index.html">
+         <a href="index.php">
             <img class="header__logo" src="img/logo-tamaño.png" alt="Logotipo">
         </a>
     </header>
 
     <nav class="navegacion">
-         <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">CATEGORIAS</a>
-         <a class="navegacion__enlace" href="patologias.html">PATOLOGIAS</a>
+         <a class="navegacion__enlace navegacion__enlace--activo" href="index.php">CATEGORIAS</a>
+         <a class="navegacion__enlace" href="INSERCIONES/PACIENTE/insertar_p.php">INGRESAR USUARIO</a>
+         <a class="navegacion__enlace" href="Ingresar_medico.php">INGRESAR MEDICO</a>
+         <a class="navegacion__enlace" href="INSERCIONES/MEDICOS/Insertar_medico.php">INSERTAR MEDICO</a>
+         <a class="navegacion__enlace" href="patologias.php">PATOLOGIAS</a>
     </nav>
 
     <main class="contenedor">
@@ -60,7 +63,7 @@
 
         <div class="grid">
             <div class="medicos">
-                <a href="medico.html">
+                <a href="medico.php">
                     <img class="medicos__imagen" src="img/transparent-physician-doctor-of-medicine-medicine-cartoon-roya-5ee4071eb99ac2.8326603115920023347602.png" alt="imagen camisa">
                     <div class="medicos__informacion">
                         <p class="medicos__nombre">Dr. Juanito Palma</p>
@@ -69,7 +72,7 @@
                 </a>
             </div>  <!--.medicos-->
             <div class="medicos">
-                <a href="medico.html">
+                <a href="medico.php">
                     <img class="medicos__imagen" src="img/transparent-physician-doctor-of-medicine-medicine-cartoon-roya-5ee4071eb99ac2.8326603115920023347602.png" alt="imagen camisa">
                     <div class="medicos__informacion">
                         <p class="medicos__nombre">Dr. Juanito Palma</p>
@@ -78,7 +81,7 @@
                 </a>
             </div>  <!--.medicos-->
             <div class="medicos">
-                <a href="medico.html">
+                <a href="medico.php">
                     <img class="medicos__imagen" src="img/transparent-physician-doctor-of-medicine-medicine-cartoon-roya-5ee4071eb99ac2.8326603115920023347602.png" alt="imagen camisa">
                     <div class="medicos__informacion">
                         <p class="medicos__nombre">Dr. Juanito Palma</p>
@@ -87,7 +90,7 @@
                 </a>
             </div>  <!--.medicos-->
             <div class="medicos">
-                <a href="medico.html">
+                <a href="medico.php">
                     <img class="medicos__imagen" src="img/transparent-physician-doctor-of-medicine-medicine-cartoon-roya-5ee4071eb99ac2.8326603115920023347602.png" alt="imagen camisa">
                     <div class="producto__informacion">
                         <p class="medicos__nombre">Dr. Juanito Palma</p>
@@ -96,7 +99,7 @@
                 </a>
             </div>  <!--.medicos-->
             <div class="medicos">
-                <a href="medico.html">
+                <a href="medico.php">
                     <img class="medicos__imagen" src="img/transparent-physician-doctor-of-medicine-medicine-cartoon-roya-5ee4071eb99ac2.8326603115920023347602.png" alt="imagen camisa">
                     <div class="medicos__informacion">
                         <p class="medicos__nombre">Dr. Juanito Palma</p>
@@ -105,7 +108,7 @@
                 </a>
             </div>  <!--.medicos-->
             <div class="medicos">
-                <a href="medico.html">
+                <a href="medico.php">
                     <img class="medicos__imagen" src="img/transparent-physician-doctor-of-medicine-medicine-cartoon-roya-5ee4071eb99ac2.8326603115920023347602.png" alt="imagen camisa">
                     <div class="medicos__informacion">
                         <p class="medicos__nombre">Dr. Juanito Palma</p>
@@ -114,7 +117,7 @@
                 </a>
             </div>  <!--.medicos-->
             <div class="medicos">
-                <a href="medico.html">
+                <a href="medico.php">
                     <img class="medicos__imagen" src="img/transparent-physician-doctor-of-medicine-medicine-cartoon-roya-5ee4071eb99ac2.8326603115920023347602.png" alt="imagen camisa">
                     <div class="medicos__informacion">
                         <p class="medicos__nombre">Dr. Juanito Palma</p>
@@ -123,7 +126,7 @@
                 </a>
             </div>  <!--.medicos-->
             <div class="medicos">
-                <a href="medico.html">
+                <a href="medico.php">
                     <img class="medicos__imagen" src="img/transparent-physician-doctor-of-medicine-medicine-cartoon-roya-5ee4071eb99ac2.8326603115920023347602.png" alt="imagen camisa">
                     <div class="medicos__informacion">
                         <p class="medicos__nombre">Dr. Juanito Palma</p>
@@ -132,7 +135,7 @@
                 </a>
             </div>  <!--.medicos-->
             <div class="medicos">
-                <a href="medico.html">
+                <a href="medico.php">
                     <img class="medicos__imagen" src="img/transparent-physician-doctor-of-medicine-medicine-cartoon-roya-5ee4071eb99ac2.8326603115920023347602.png" alt="imagen camisa">
                     <div class="medicos__informacion">
                         <p class="medicos__nombre">Dr. Juanito Palma</p>
@@ -141,7 +144,7 @@
                 </a>
             </div>  <!--.medicos-->
             <div class="medicos">
-                <a href="medico.html">
+                <a href="medico.php">
                     <img class="medicos__imagen" src="img/transparent-physician-doctor-of-medicine-medicine-cartoon-roya-5ee4071eb99ac2.8326603115920023347602.png" alt="imagen camisa">
                     <div class="medicos__informacion">
                         <p class="medicos__nombre">Dr. Juanito Palma</p>
@@ -150,7 +153,7 @@
                 </a>
             </div>  <!--.medicos-->
             <div class="medicos">
-                <a href="medico.html">
+                <a href="medico.php">
                     <img class="medicos__imagen" src="img/transparent-physician-doctor-of-medicine-medicine-cartoon-roya-5ee4071eb99ac2.8326603115920023347602.png" alt="imagen camisa">
                     <div class="medicos__informacion">
                         <p class="medicos__nombre">Dr. Juanito Palma</p>
@@ -159,7 +162,7 @@
                 </a>
             </div>  <!--.medicos-->
             <div class="medicos">
-                <a href="medico.html">
+                <a href="medico.php">
                     <img class="medicos__imagen" src="img/transparent-physician-doctor-of-medicine-medicine-cartoon-roya-5ee4071eb99ac2.8326603115920023347602.png" alt="imagen camisa">
                     <div class="medicos__informacion">
                         <p class="medicos__nombre">Dr. Juanito Palma</p>
@@ -168,7 +171,7 @@
                 </a>
             </div>  <!--.medicos-->
             <div class="medicos">
-                <a href="medico.html">
+                <a href="medico.php">
                     <img class="medicos__imagen" src="img/transparent-physician-doctor-of-medicine-medicine-cartoon-roya-5ee4071eb99ac2.8326603115920023347602.png" alt="imagen camisa">
                     <div class="medicos__informacion">
                         <p class="medicos__nombre">Dr. Juanito Palma</p>
@@ -177,7 +180,7 @@
                 </a>
             </div>  <!--.medicos-->
             <div class="medicos">
-                <a href="medico.html">
+                <a href="medico.php">
                     <img class="medicos__imagen" src="img/transparent-physician-doctor-of-medicine-medicine-cartoon-roya-5ee4071eb99ac2.8326603115920023347602.png" alt="imagen camisa">
                     <div class="medicos__informacion">
                         <p class="medicos__nombre">Dr. Juanito Palma</p>
@@ -186,7 +189,7 @@
                 </a>
             </div>  <!--.medicos-->
             <div class="medicos">
-                <a href="medico.html">
+                <a href="medico.php">
                     <img class="medicos__imagen" src="img/transparent-physician-doctor-of-medicine-medicine-cartoon-roya-5ee4071eb99ac2.8326603115920023347602.png" alt="imagen camisa">
                     <div class="medicos__informacion">
                         <p class="medicos__nombre">Dr. Juanito Palma</p>
@@ -195,7 +198,7 @@
                 </a>
             </div>  <!--.medicos-->
             <div class="medicos">
-                <a href="medico.html">
+                <a href="medico.php">
                     <img class="medicos__imagen" src="img/transparent-physician-doctor-of-medicine-medicine-cartoon-roya-5ee4071eb99ac2.8326603115920023347602.png" alt="imagen camisa">
                     <div class="medicos__informacion">
                         <p class="medicos__nombre">Dr. Juanito Palma</p>
@@ -203,6 +206,7 @@
                     </div>
                 </a>
             </div>  <!--.medicos-->
+            
 
             <div class="grafico grafico--camisas"></div>
             <div class="grafico grafico--node"></div>

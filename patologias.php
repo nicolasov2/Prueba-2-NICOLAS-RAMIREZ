@@ -16,14 +16,14 @@
 </head>
 <body>
     <header class="header">
-        <a href="index.html">
+        <a href="index.php">
             <img class="header__logo" src="img/logo-tamaño.png" alt="Logotipo">
         </a>
     </header>
 
     <nav class="navegacion">
-        <a class="navegacion__enlace" href="index.html">CATEGORIAS</a>
-        <a class="navegacion__enlace navegacion__enlace--activo" href="patologias.html">PATOLOGIAS</a>
+        <a class="navegacion__enlace" href="index.php">CATEGORIAS</a>
+        <a class="navegacion__enlace navegacion__enlace--activo" href="patologias.php">PATOLOGIAS</a>
     </nav>
 
     <main class="contenedor">
