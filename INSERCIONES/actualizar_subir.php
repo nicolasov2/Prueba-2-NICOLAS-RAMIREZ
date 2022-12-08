@@ -6,18 +6,18 @@
 </head>
 
 <body>
-    <form action="../MEDICOS/subir_edicion_medico.php" method="POST">
+    <form action="../../subir_edicion_medico.php" method="post">
         <table> 
             <?php 
-                include 'conexion.php';
+                include '../conexion.php';
                 $id=$_REQUEST['id'];
                 echo $id;
-                $insertar = "SELECT * from tabla_medico where Id_medico= '$id' ";
+                $insertar = "select * from tabla_medico where Id_medico= '$id' ";
                 $result = $conn->query($insertar);
                 if ($result->num_rows > 0) {
                     while($row = $result->fetch_assoc()) {
                         echo "
-                            <input type='hidden' id='Id_medico' name='Id_medico' value='".$row['Id_medico']."'> 
+                            <input type='hidden' id='Id_medico' name='Id_medico' value='".$row['Id_medico']."' 
                             <fieldset>
                                   <div class='form-group'>
                                     <div class='col-md-6'>

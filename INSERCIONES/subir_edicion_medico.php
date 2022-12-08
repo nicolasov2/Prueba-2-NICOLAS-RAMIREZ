@@ -1,5 +1,5 @@
 <?php
-include 'conexion.php';
+include '../conexion.php';
 
 $id=$_REQUEST['Id_medico'];
 $Nombre_medico=$_REQUEST['Nombre_medico'];

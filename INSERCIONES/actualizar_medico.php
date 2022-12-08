@@ -1,5 +1,5 @@
 <?php
-include '../MEDICOS/conexion.php';
+include '../../conexion.php';
 $insertar = "select * from tabla_medico";
 $result = $conn->query($insertar);
 if ($result->num_rows > 0) {
