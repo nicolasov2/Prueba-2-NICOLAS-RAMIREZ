@@ -1,5 +1,5 @@
 <?php
- include '../conexion.php';
+ include '../MEDICOS/conexion.php';
   
     $nombre_medico = $_POST['Nombre_medico'];
     $apellido = $_POST['Apellido_medico'];
