@@ -33,24 +33,32 @@
                         
                                     <label for='Prevision'>SELECCIONE ESPECIALIZACION:</label>
                                       <select class='form-control' name='Especialidad' placeholder='SELECCIONE UNA' type='select' value='".$row['Especialidad']."'>>
-                                        <option value='volvo'>NEUROCIRUJANO</option>
-                                        <option value='saab'>CARDIOLOGO</option>
-                                        <option value='opel'>GINECOLOGO</option>
-                                        <option value='audi'>PEDIATRA</option>
-                                        <option value='audi'>TRAUMATOLOGO</option>
-                                        <option value='audi'>OTORRINOLARINGOLOGO</option>
-                                        <option value='audi'>NEFROLOGO</option>
-                                        <option value='audi'>NEUMOLOGO</option>
-                                        <option value='audi'>NEUROLOGO</option>
-                                        <option value='audi'>ENDOCRINOLOGO</option>
-                                        <option value='audi'>ONCOLOGO</option>
-                                        <option value='audi'>UROLOGO</option>
-                                        <option value='audi'>GASTROENTEROLOGO</option>
-                                        <option value='audi'>HEMATOLOGO</option>
-                                        <option value='audi'>INFECTOLOGO</option>
-                                        <option value='audi'>DERMATOLOGO</option>
-                                        <option value='audi'>PSIQUIATRA</option>
-                                        <option value='audi'>OTRA</option>
+                                        <option value='NEUROCIRUJANO'>NEUROCIRUJANO</option>
+                                        <option value='CARDIOLOGO'>CARDIOLOGO</option>
+                                        <option value='GINECOLOGO'>GINECOLOGO</option>
+                                        <option value='DERMATOLOGO'>DERMATOLOGO</option>
+                                        <option value='OTORRINOLARINGOLOGO'>OTORRINOLARINGOLOGO</option>
+                                        <option value='NEFROLOGO'>NEFROLOGO</option>
+                                        <option value='NEUMOLOGO'>NEUMOLOGO</option>
+                                        <option value='TRAUMATOLOGO'>TRAUMATOLOGO</option>
+                                        <option value='NEUROLOGO'>NEUROLOGO</option>
+                                        <option value='ONCOLOGO'>ONCOLOGO</option>
+                                        <option value='PEDIATRA'>PEDIATRA</option>
+                                        <option value='PSIQUIATRA'>PSIQUIATRA</option>
+                                        <option value='PSICOLOGO'>PSICOLOGO</option>
+                                        <option value='HEMAOTOGO'>HEMAOTOGO</option>
+                                        <option value='ENDOCRINOLOGO'>ENDOCRINOLOGO</option>
+                                        <option value='GASTROENTEROLOGO'>GASTROENTEROLOGO</option>
+                                        <option value='UROLOGO'>UROLOGO</option>
+                                        <option value='CIRUJANO'>CIRUJANO</option>
+                                        <option value='FISIATRA'>FISIATRA</option>
+                                        <option value='FONOAUDIOLOGO'>FONOAUDIOLOGO</option>
+                                        <option value='FISIOTERAPEUTA'>FISIOTERAPEUTA</option>
+                                        <option value='NUTRICIONISTA'>NUTRICIONISTA</option>
+                                        <option value='OFTALMOLOGO'>OFTALMOLOGO</option>
+                                        <option value='ORTOPEDISTA'>ORTOPEDISTA</option>
+                                        <option value='REUMATOLOGO'>REUMATOLOGO</option>
+                                        <option value='OTRO'>OTRO</option> 
                                       </select>
                           
                                     <div class='form-group'>
