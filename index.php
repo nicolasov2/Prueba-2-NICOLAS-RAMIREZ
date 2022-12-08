@@ -22,11 +22,10 @@
     </header>
 
     <nav class="navegacion">
-         <a class="navegacion__enlace navegacion__enlace--activo" href="index.php">CATEGORIAS</a>
+         <a class="navegacion__enlace navegacion__enlace--activo" href="index.php">INICIO</a>
          <a class="navegacion__enlace" href="INSERCIONES/pacientes/Insertar_paciente.php">INSERTAR USUARIO</a>
-         <a class="navegacion__enlace" href="Ingresar_medico.php">INGRESAR MEDICO</a>
+         <a class="navegacion__enlace" href="INSERCIONES/patologias/ver_patologias.php">VER PATOLOGIAS</a>
          <a class="navegacion__enlace" href="INSERCIONES/Insertar_medico.php">INSERTAR MEDICO</a>
-         <a class="navegacion__enlace" href="patologias.php">PATOLOGIAS</a>
     </nav>
 
     <main class="contenedor">
