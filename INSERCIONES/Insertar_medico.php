@@ -14,8 +14,7 @@
 
 
         <div id="wrapper" class="container">  
-                 <center>
-
+                <center>
                     <h1>INGRESAR MEDICOS:</h1><hr>
                         <form  method="POST" name="form-work" action="guardar_medico.php" enctype="multipart/form-data">
                     
@@ -30,8 +29,7 @@
                                       <label class="control-label" for="nome">Apellido del medico:</label>
                                       <input name="Apellido_medico" class="form-control" placeholder="CLICK HERE" type="text">
                                       </div>
-                                    </div>
-                        
+                                    </div>     
                                     <label for="Prevision">SELECCIONE ESPECIALIZACION:</label>
                                       <select class="form-control" name="Especialidad" placeholder="SELECCIONE UNA" type="select">>
                                         <option value='NEUROCIRUJANO'>NEUROCIRUJANO</option>
@@ -60,33 +58,27 @@
                                         <option value='ORTOPEDISTA'>ORTOPEDISTA</option>
                                         <option value='REUMATOLOGO'>REUMATOLOGO</option>
                                         <option value='OTRO'>OTRO</option> 
-                                      </select>
-                          
+                                      </select>                         
                                     <div class="form-group">
                                       <div class="col-md-6">
                                         <label class="control-label" for="email">Telefono:</label>
                                         <input name="Telefono" class="form-control" placeholder="+56 9 7281 8208" type="number">
                                       </div>
                                     </div>
-
                                     <div class="form-group">
                                       <div class="col-md-6">
                                         <label class="control-label" for="surname">Correo electronico:</label>
                                         <input name="Correo" class="form-control" placeholder="abcde@gmail.com" type="email">
                                       </div>
                                     </div>
-
                                     <div class="form-group">
                                       <div class="col-md-12">
                                         <button type="submit" class="btn btn-primary btn-lg btn-block info">Guardar</button>
                                       </div>
-                                    </div>
-                                    
-                                    
-
+                                    </div>                                                                    
                                 </fieldset> 
                               </form>
-                 </center>
+                </center>
               </div>
     
 

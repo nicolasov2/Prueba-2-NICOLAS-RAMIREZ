@@ -26,6 +26,7 @@
          <a class="navegacion__enlace" href="INSERCIONES/pacientes/Insertar_paciente.php">INSERTAR USUARIO</a>
          <a class="navegacion__enlace" href="INSERCIONES/patologias/ver_patologias.php">VER PATOLOGIAS</a>
          <a class="navegacion__enlace" href="INSERCIONES/Insertar_medico.php">INSERTAR MEDICO</a>
+         <a class="navegacion__enlace" href="INSERCIONES/patologias/listar_patologias.php"> LISTAR PATOLOGIAS</a>
     </nav>
 
     <main class="contenedor">
