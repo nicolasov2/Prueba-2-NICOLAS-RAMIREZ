@@ -1,45 +1,17 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Patologias</title>
-</head>
-<body>
-    <center>
-    <!--inicio del contenedor-->
-        <div style="height: 3000px;width: 100% ;background: white">
-            <!--inicio del header-->
-            <div style="width: 100%;height: 250px">        
-                <div style="width: 100% ;height: 200px;background: rgb(8, 197, 211);font-size: xX-large;"><H1>Patologias</H1></div>
-                <div style="width: 100%;height:50px ;background: blue"><br>
-                    <div style="text-align: left;width: 90%;font-size: 1.1em;color:white;">
-                        <b>
-                            <a style="color: white " href="#" target="_self">Insertar paciente </a>|
-                            <a style="color: white " href="#" target="_self">insertar medico</a>|
-                            <a style="color: white " href="#" target="_self">Gestionar Pacientes</a>|
-                            <a style="color: white " href="#" target="_self">Gestionar Medicos</a>|
-                            <a style="color: white " href="#" target="_self">Volver al inicio</a>
-                        </b>
-                    </div>
-                </div>
-            </div>
-            <!--fin del header-->
-            
-            <!--inicio del main-->
-            <div style="width: 100%;height: 100%;background: rgb(8, 197, 211);">
-                <?php 
-                include "ver_patologias.php"
-                ?>
-            </div>
-            <!--fin del main-->
-            
-            <!--inicio del footer-->
-            <div style="width: 100%; height:200px ;background: blue;border: 1;";></div>
-            <!--fin del footer-->
-        </div>      
-    <!--fin del contenedor-->
-    </center>
-</body>
-</html>
+<?php
+include_once "../conexion.php";
+$sql = "SELECT Nombre_patologia,Descripcion,Id_medico,Tratamiento FROM tabla_patologias";
+$result = $conn->query($sql);
+
+if($result->num_rows > 0){
+    while($row = $result->fetch_assoc()){
+        echo "<div style='float: left;border:1px solid'><h1 style='border:1px solid'>" . $row["Nombre_patologia"]. "</h1><br><img style='border:1px solid' src='". 
+        "' alt='' width='20%' align='right' ><h4>Descripcion: </h4>" . $row["Descripcion"]."<br><h4>Tratamiento:</h4><br>".
+        " " . $row["Tratamiento"]."<br> "."<br></div>";
+    }
+}else{
+    echo "0 results";
+}
+
+$conn->close();
+?>

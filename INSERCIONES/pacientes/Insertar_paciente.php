@@ -23,11 +23,6 @@
                                       </div>
                                     </div>                         
                                     <div class="form-group">
-                                      <div class="col-md-6">
-                                        <label class="control-label" for="surname">Prevision del paciente: </label>
-                                        <input name="Prevision" class="form-control" placeholder="CLICK HERE" type="select">
-                                      </div>
-                                    </div>
                                     <label for="Prevision">SELECCIONE PREVISION DEL PACIENTE:</label>
                                       <select class="form-control" name="Prevision" placeholder="SELECCIONE UNA" type="select">>
                                         <option value='FONASA'>FONASA</option>
@@ -58,8 +53,8 @@
                                     </div>
                                     <div class="form-group">
                                       <div class="col-md-6">
-                                      <br>ingrese la imagen<br>
-                                      <input type="file" id="img_nombre" name="img" value=" ">
+                                        <label class="control-label" for="surname">Ingrese imagen patologia paciente:</label>
+                                        <input name="img" class="form-control" placeholder="MAX 2MB" type="file">
                                       </div>
                                     </div> 
                                     <div class="form-group">
@@ -85,6 +80,10 @@
                                           <button type="submit" class="btn btn-primary btn-lg btn-block info">Guardar</button>
                                         </div>
                                       </div>
+                                      <div class="form-group">
+                                        <div class="col-md-12">
+                                          <a href="../pacientes/mostrar_img.php" class="btn btn-primary btn-lg btn-block info">MODIFICAR PACIENTES</a>
+                                        </div>
                                 </fieldset> 
                               </form>
                   </center>

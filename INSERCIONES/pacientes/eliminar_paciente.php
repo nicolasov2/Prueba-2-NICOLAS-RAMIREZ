@@ -30,7 +30,7 @@ else
         <a href="../pacientes/Insertar_paciente.php">AGREGAR MAS PACIENTES</a>
         <br><br>
         <a href="../pacientes/actualizar_paciente.php">VOLVER ATRAS</a>
-                 <a class="navegacion__enlace navegacion__enlace--activo" href="index.php">INICIO</a>
+        <a class="navegacion__enlace navegacion__enlace--activo" href="/PRUEBA-2-NICOLAS-RAMIREZ/Prueba-2-NICOLAS-RAMIREZ/index.php">INICIO</a>
 
     
     <footer>

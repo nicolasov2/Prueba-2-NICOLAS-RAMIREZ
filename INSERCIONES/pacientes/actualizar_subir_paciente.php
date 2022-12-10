@@ -31,14 +31,8 @@
                                       <input name='Nombre_paciente' class='form-control' placeholder='CLICK HERE' type='text' value='".$row['Nombre_paciente']."' >
                                       </div>
                                     </div>                         
-                                    <div class='form-group'>
-                                      <div class='col-md-6'>
-                                        <label class='control-label' for='surname'>Prevision del paciente: </label>
-                                        <input name='Prevision' class='form-control' placeholder='CLICK HERE' type='select' value='".$row['Prevision']."'>
-                                      </div>
-                                    </div>
                                     <label for='Prevision'>SELECCIONE PREVISION DEL PACIENTE:</label>
-                                      <select class='form-control' name='Prevision' placeholder='SELECCIONE UNA' type='select' value='".$row['Id_medico']."'>
+                                      <select class='form-control' name='Prevision' placeholder='SELECCIONE UNA' type='select' value='".$row['Prevision']."'>
                                         <option value='FONASA'>FONASA</option>
                                         <option value='saab'>ISAPRE</option>
                                         <option value='ISAPRE'>COOPERATIVA</option>
@@ -50,44 +44,43 @@
                                     <div class='form-group'>
                                       <div class='col-md-6'>
                                         <label class='control-label' for='email'>Direccion:</label>
-                                        <input name='Direccion' class='form-control' placeholder='BLANCO #630, VALPARAISO, CHILE' type='text' value='".$row['Id_medico']."'>
+                                        <input name='Direccion' class='form-control' placeholder='BLANCO #630, VALPARAISO, CHILE' type='text' value='".$row['Direccion']."'>
                                       </div>
                                     </div>
                                     <div class='form-group'>
                                       <div class='col-md-6'>
                                         <label class='control-label' for='surname'>Patologias del paciente</label>
-                                        <input name='Patologias' class='form-control' placeholder='INGRESE DETALLADAMENTE EN ESTE RECUADRO' type='textarea' value='".$row['Id_medico']."'>
+                                        <input name='Patologias' class='form-control' placeholder='INGRESE DETALLADAMENTE EN ESTE RECUADRO' type='textarea' value='".$row['Patologias']."'>
                                       </div>
                                     </div>
                                     <div class='form-group'>
                                       <div class='col-md-6'>
                                         <label class='control-label' for='surname'>Ficha de atencion:</label>
-                                        <input name='Ficha_atencion' class='form-control' placeholder='INGRESE AQUI' type='text' value='".$row['Id_medico']."'>
+                                        <input name='Ficha_atencion' class='form-control' placeholder='INGRESE AQUI' type='text' value='".$row['Ficha_atencion']."'>
                                       </div>
                                     </div>
                                     <div class='form-group'>
                                       <div class='col-md-6'>
-                                      <br>ingrese la imagen<br>
-                                      <input type='file' id='img_nombre' name='img' value='".$row['Id_medico']."'>
+                                        <label class='control-label' for='surname'>Ingrese imagen patologia paciente:</label>
+                                        <input name='Img_paciente' class='form-control' placeholder='MAX 2MB' type='file'".$row['Img_paciente'].">
                                       </div>
-                                      <br>
                                     </div> 
                                     <div class='form-group'>
                                       <div class='col-md-6'>
                                         <label class='control-label' for='surname'>Telefono:</label>
-                                        <input name='Fono' class='form-control' placeholder='+56 9 5555 5555' type='number' value='".$row['Id_medico']."'>
+                                        <input name='Fono' class='form-control' placeholder='+56 9 5555 5555' type='number' value='".$row['Fono']."'>
                                       </div>
                                     </div>
                                     <div class='form-group'>
                                       <div class='col-md-6'>
                                         <label class='control-label' for='surname'>Correo electronico:</label>
-                                        <input name='Correo' class='form-control' placeholder='abcde@gmail.com' type='email' value='".$row['Id_medico']."'>
+                                        <input name='Correo' class='form-control' placeholder='abcde@gmail.com' type='email' value='".$row['Correo']."'>
                                       </div>
                                     </div>
                                       <div class='form-group'>
                                         <div class='col-md-6'>
                                           <label class='control-label' for='surname'>Alergias:</label>
-                                          <input name='Alergias' class='form-control' placeholder='PARACETAMOL - IBUPROFENO - ETC' type='textarea' value='".$row['Id_medico']."'>
+                                          <input name='Alergias' class='form-control' placeholder='PARACETAMOL - IBUPROFENO - ETC' type='textarea' value='".$row['Alergias']."'>
                                         </div>
                                       </div>                                 
                                 </fieldset> 
